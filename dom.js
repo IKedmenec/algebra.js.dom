@@ -16,3 +16,12 @@ if (x == true){
     console.log("Korisnik odgovorio NOk");
     window.location = "onama.html";
 }
+
+//console.log("end page 1");
+//window.alert("test alert");
+console.log("end page");
+
+window.setTimeout(function(){
+    console.log("ispis sa delay od 2 sec")
+}, 2000);
+
