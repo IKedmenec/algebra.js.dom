@@ -28,6 +28,24 @@ footElement.parentNode.insertBefore(divInfo, footElement);
 var ul = document.querySelector("ul"); // dohvacen iz memorije (DOM-a)
 // var li = document.createElement("li"); // kereiramo novi objekt u memoriji
 
+console.log("UL ima LI elemenata: " + ul.childElementCount); 
+
+// debbuger;
+// prvi nacin brisanja elemenata iz UL
+/* for (let i = ul.childElementCount; i > 0; i --) {
+    let child = ul.childreni[i - 1];
+    ul.removeChild(child);
+}
+*/
+
+// drugi nacin brisanja elemenata iz UL
+
+while (ul.childElementCount > 0) {
+    let child = ul.children[0];
+    ul.removeChild(child);
+}
+
+
 for (let i = 0; i < 3; i++) {
     let li = document.createElement("li");
     ul.appendChild(li);
