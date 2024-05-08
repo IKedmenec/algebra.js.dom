@@ -14,4 +14,7 @@ for (let elem of ul.children) {
 var divInfo = document.querySelector(".info");
 divInfo.classList.add("sakrij");
 
-var body
+var body = document.querySelector("body");
+var bodyWindow = window.getComputedStyle(body, null);
+var marginBody = bodyWindow.getPropertyValue("margin-left");
+console.log("marginBody: " + marginBody);
