@@ -5,7 +5,7 @@ h1.appendChild(document.createTextNode("Ovo je text unutar h1"));
 var dDescr = document.querySelector("body");
 console.log(bodyElem);
 
-//vodyElem.prepend(h1); 
+//bodyElem.prepend(h1); 
 */
 
 var dDescr = document.querySelector(".description");
