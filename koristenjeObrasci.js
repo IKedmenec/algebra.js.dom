@@ -20,3 +20,5 @@ brojanje.run();
 
 var total = brojanje.getTotalSteps();
 console.log("Total steps = " + total); 
+
+
