@@ -62,6 +62,7 @@ console.log("Pas2 (dog2) se glasa = " + dog1.bark());
 
 
 
+
     
 
 
